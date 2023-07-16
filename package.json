@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": "16.20.1"
+  },
   "scripts": {
     "start": "npx http-server public",
     "dev": "npx http-server public --cert certificates/cert.pem --key certificates/key.pem --ssl -o"
