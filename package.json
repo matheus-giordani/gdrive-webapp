@@ -1,0 +1,17 @@
+{
+  "name": "@matheus-giordani/gdrive-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server public",
+    "dev": "npx http-server public --cert certificates/cert.pem --key certificates/key.pem --ssl -o"
+  },
+  "keywords": [],
+  "author": "matheus-giordani",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
