@@ -3,7 +3,7 @@ import ConnectionManager from "./src/connectionManager.js";
 import DragAndDropManager from "./src/dragAndDropManager.js";
 import ViewManager from "./src/viewManager.js";
 
-const API_URL = process.env.API_URL ?? 'http://localhost:3000'
+const API_URL = 'https://gdrive-webapi.onrender.com'
 const appController = new AppController({
     viewManager: new ViewManager(),
     dragAndDropManager: new DragAndDropManager(),
